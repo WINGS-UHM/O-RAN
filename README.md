@@ -20,6 +20,6 @@ Open-RAN/AI-RAN Testbed Architechture @ UHM
 
 # O-RAN Stack
 
-1. **Option 1:** [OAIBox](https://oaibox.com/)
-2. **Option 2:** [POWDER Fork of srsRAN](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric)
+1. **Option 1:** [POWDER Fork of srsRAN](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric)
+2. **Option 2:** [OAIBox](https://oaibox.com/)
 
