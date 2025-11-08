@@ -8,6 +8,10 @@
 ![license](https://img.shields.io/github/license/WINGS-UHM/O-RAN?cacheSeconds=60)
 
 
+✍️✍️ **Authors** ✍️✍️
+- Xiaochan Xue (Assistant Professor at UH Manoa) <br>
+- Saurabh Parkar (Ph.D. Student at UH Manoa)
+
 <h2 align="center">👇👇 Get Started 👇👇</h2>
 
 <a id="server-specification"></a>
@@ -46,7 +50,3 @@
  
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
 
-
-<h2 align="center">✍️✍️ Authors ✍️✍️</h2>
-- Xiaochan Xue (Assistant Professor at UH Manoa) <br>
-- Saurabh Parkar (Ph.D. Student at UH Manoa)
