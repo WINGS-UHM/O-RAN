@@ -9,7 +9,6 @@
 
 
 <h2 align="center">👇👇 Get Started 👇👇</h2>
----
 
 <a id="server-specification"></a>
 <details>
@@ -43,7 +42,7 @@
 </details>
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
----
+
  
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
----
+
