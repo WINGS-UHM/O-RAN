@@ -46,3 +46,7 @@
  
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
 
+
+<h2 align="center">✍️✍️ Authors ✍️✍️</h2>
+- Xiaochan Xue (Assistant Professor at UH Manoa) <br>
+- Saurabh Parkar (Ph.D. Student at UH Manoa)
