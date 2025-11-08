@@ -1,6 +1,13 @@
 <h1 align="center">O-RAN/AI-RAN Testbed</h1>
 <h3 align="center">This Project Display the On-site Open-RAN/AI-RAN Testbed Architecture @ UHM</h3>
 
+---
+
+![last commit](https://img.shields.io/github/last-commit/WINGS-UHM/O-RAN?cacheSeconds=60)
+![stars](https://img.shields.io/github/stars/WINGS-UHM/O-RAN?style=social&cacheSeconds=60)
+![license](https://img.shields.io/github/license/WINGS-UHM/O-RAN?cacheSeconds=60)
+
+
 👇👇 **Get Started** 👇👇
 ---
 
@@ -34,9 +41,3 @@
 2. **Option 2:** [OAIBox](https://oaibox.com/)
 
 </details>
-
-<p>
-  <img alt="last commit" src="https://img.shields.io/github/last-commit/WINGS-UHM/O-RAN" />
-  <img alt="stars" src="https://img.shields.io/github/stars/WINGS-UHM/O-RAN?style=social" />
-  <img alt="license" src="https://img.shields.io/github/license/WINGS-UHM/O-RAN" />
-</p>
