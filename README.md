@@ -8,7 +8,7 @@
 ![license](https://img.shields.io/github/license/WINGS-UHM/O-RAN?cacheSeconds=60)
 
 
-👇👇 **Get Started** 👇👇
+<h2 align="center">👇👇 Get Started 👇👇</h2>
 ---
 
 <a id="server-specification"></a>
@@ -41,3 +41,9 @@
 2. **Option 2:** [OAIBox](https://oaibox.com/)
 
 </details>
+
+<h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
+---
+ 
+<h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
+---
