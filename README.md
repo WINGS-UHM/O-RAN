@@ -35,6 +35,8 @@
 
 </details>
 
----
-
-![GitHub last commit](https://img.shields.io/github/last-commit/WINGS-UHM/O-RAN)
+<p>
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/WINGS-UHM/O-RAN" />
+  <img alt="stars" src="https://img.shields.io/github/stars/WINGS-UHM/O-RAN?style=social" />
+  <img alt="license" src="https://img.shields.io/github/license/WINGS-UHM/O-RAN" />
+</p>
