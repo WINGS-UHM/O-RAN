@@ -8,9 +8,12 @@
 ![license](https://img.shields.io/github/license/WINGS-UHM/O-RAN?cacheSeconds=60)
 
 
-✍️✍️ **Authors** ✍️✍️
+✍️✍️ **Authors** ✍️✍️ [No ranking]
 - Xiaochan Xue (Assistant Professor at UH Manoa) <br>
-- Saurabh Parkar (Ph.D. Student at UH Manoa)
+- Saurabh Parkar (Ph.D. Student at UH Manoa) <br>
+- Thomas Yang (Master Student at UH Manoa) <br>
+- Aris Carlos (Master Student at UH Manoa) <br>
+- Ethan Morrell (Master Student at UH Manoa
 
 <h2 align="center">👇👇 Get Started 👇👇</h2>
 
