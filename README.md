@@ -43,8 +43,10 @@
 <details>
   <summary><strong>O-RAN Stack</strong></summary>
 
-1. **Option 1:** [POWDER Fork of srsRAN](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric)  
-2. **Option 2:** [OAIBox](https://oaibox.com/)
+1. **Option 1:** [POWDER Fork of srsRAN](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric)
+2. **Option 2:** [srsStack](https://github.com/srsran/oran-sc-ric)
+3. **Option 3:** [AI-RAN by NVIDIA](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/aerial/containers/aerial-cuda-accelerated-ran?version=25-3-cubb)
+4. **Option 4:** [OAIBox](https://oaibox.com/)
 
 </details>
 
