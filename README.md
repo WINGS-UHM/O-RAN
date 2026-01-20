@@ -13,7 +13,7 @@
 - Saurabh Parkar (Ph.D. Student at UH Manoa) <br>
 - Thomas Yang (Master Student at UH Manoa) <br>
 - Aris Carlos (Master Student at UH Manoa) <br>
-- Ethan Morrell (Master Student at UH Manoa
+- Ethan Morrell (Master Student at UH Manoa)
 
 <h2 align="center">👇👇 Get Started 👇👇</h2>
 
@@ -43,15 +43,20 @@
 <details>
   <summary><strong>O-RAN Stack</strong></summary>
 
-1. **Option 1:** [POWDER Fork of srsRAN](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric)
-2. **Option 2:** [srsStack](https://github.com/srsran/oran-sc-ric)
-3. **Option 3:** [AI-RAN by NVIDIA](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/aerial/containers/aerial-cuda-accelerated-ran?version=25-3-cubb)
-4. **Option 4:** [OAIBox](https://oaibox.com/)
-
+1. [Near RT-RIC (i-release)](https://github.com/srsran/oran-sc-ric)
+2. [Near RT-RIC (j-release)](https://lf-o-ran-sc.atlassian.net/wiki/spaces/IAT/pages/14516684/Near-RT+RIC+J+Release)
+   - Also refer [[Demo](https://zoom.us/rec/play/-crjV6kqiOjdG7zpMyQpj-1xcGV9L08r87hlVSmGhbcaK7KPUGkpkXCHnqdxEe0qzYbt2lKfJT2wX6cP.VjV0IXRtRO90Q7bY?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FeY2NoHjQE1O4hmKW6dLByTpka6ZJm-QDbtEWu5zHZMg-JzUp30msW2HCZsjGRbFl.q_dm2igKWSBK5LUn), [Deployment Template](https://lf-o-ran-sc.atlassian.net/wiki/spaces/RICP/pages/136839195/RIC+Deployment+Template)] 
+3. RAN Stacks
+   - [Open5Gs](https://open5gs.org/open5gs/docs/guide/01-quickstart/)
+   - [srsRan Project](https://github.com/srsran/srsRAN_project)
+   - E2-ORAN Compliant POWDER RAN [[Repo](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric), [srslte script](https://gitlab.flux.utah.edu/powder-profiles/oran/-/blob/master/setup-srslte.sh?ref_type=heads)]
+4. Some Setup scripts from [POWDER ORAN deployment](https://gitlab.flux.utah.edu/powder-profiles/oran)
 </details>
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
  
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
+
+
 
