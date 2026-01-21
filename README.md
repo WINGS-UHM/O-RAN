@@ -139,9 +139,7 @@
   
   ![Connection](others/O-RAN-Architecture.png)
 
-  ### Tutorial: How O-RAN Connects to 5G Core Network
-
-  This section provides a step-by-step guide on how O-RAN components connect to the 5G Core Network (Open5GS), including the interfaces, protocols, and ports used for each connection.
+  How O-RAN Connects to 5G Core Network？ Including the interfaces, protocols, and ports used for each connection.
 
   #### Connection Overview
 
@@ -159,128 +157,6 @@
   | **User Plane** | O-CU / O-DU | UPF | **N3** | GTP-U over UDP | **2152** | User data packet forwarding |
   | **Session Management** | SMF | UPF | **N4** | PFCP over UDP | **8805** | Session and QoS control |
   | **Service Discovery** | All NFs | NRF | **SBI** | HTTP/2 | **7777** (NRF) | Network function registration and discovery |
-
-  #### Step-by-Step Connection Guide
-
-  **Step 1: Configure 5G Core Network (Open5GS)**
-
-  Before connecting the O-RAN, ensure your Open5GS core network is properly configured:
-
-  1. **Configure AMF** (`amf.yaml`):
-     amf:
-       ngap:
-         - addr: 10.10.0.5        # IP address reachable by O-CU/gNB
-           port: 38412            # N2 interface port
-       sbi:
-         - addr: 127.0.0.5
-           port: 7777             # Service-Based Interface port
-       guami:
-         - plmn_id:
-             mcc: 001             # Mobile Country Code
-             mnc: 01              # Mobile Network Code
-           amf_id:
-             region: 2
-             set: 1
-             region_id: 2
-       tai:
-         - plmn_id:
-             mcc: 001
-             mnc: 01
-           tac: 1                 # Tracking Area Code
-       plmn_support:
-         - plmn_id:
-             mcc: 001
-             mnc: 01
-           slice:
-             - sst: 1             # Slice/Service Type
-               sd: 000001
-       2. **Configure UPF** (`upf.yaml`):
-     upf:
-       gtpu:
-         - addr: 10.11.0.7        # IP address for N3 interface (user plane)
-       pfcp:
-         - addr: 127.0.0.7
-           port: 8805             # N4 interface port (PFCP)
-       3. **Configure SMF** (`smf.yaml`):ml
-     smf:
-       pfcp:
-         - addr: 127.0.0.4
-       gtpc:
-         - addr: 127.0.0.4
-       sbi:
-         - addr: 127.0.0.4
-           port: 7777
-       upf:
-         - addr: 10.11.0.7        # UPF address for N4 interface
-       **Step 2: Configure O-RAN O-CU**
-
-  Configure the O-CU to connect to the 5G Core Network:
-
-  1. **Set N2 Interface (Control Plane)**:
-     - AMF Address: `10.10.0.5`
-     - AMF Port: `38412`
-     - Protocol: SCTP
-     - Ensure SCTP is enabled and not blocked by firewall
-
-  2. **Set N3 Interface (User Plane)**:
-     - UPF Address: `10.11.0.7`
-     - UPF Port: `2152`
-     - Protocol: GTP-U over UDP
-
-  3. **Configure Network Parameters**:
-     - PLMN ID: MCC `001`, MNC `01` (must match AMF configuration)
-     - TAC (Tracking Area Code): `1` (must match AMF configuration)
-     - Slice NSSAI: SST `1`, SD `000001` (must match AMF configuration)
-
-  **Step 3: Verify Connections**
-
-  1. **Check N2 (Control Plane) Connection**:
-     - Start AMF first
-     - Start O-CU/gNB
-     - Check AMF logs for: `gNB-N2 accepted` or `NG Setup Request received`
-     - Check O-CU logs for successful NGAP association
-
-  2. **Check N3 (User Plane) Connection**:
-     - After N2 is established, the user plane connection will be set up automatically
-     - Monitor UPF logs for GTP-U tunnel establishment
-     - Verify that packets can flow through the N3 interface
-
-  3. **Check Service Discovery**:
-     - Verify NRF is running and accessible
-     - Check that AMF, SMF, and UPF are registered with NRF
-     - Use service discovery to verify connectivity between network functions
-
-  **Step 4: Troubleshooting Common Issues**
-
-  - **N2 Connection Fails**:
-    - Verify SCTP is enabled: `sudo modprobe sctp`
-    - Check firewall rules allow SCTP traffic on port 38412
-    - Ensure IP addresses are reachable between O-CU and AMF
-    - Verify PLMN, TAC, and NSSAI values match on both sides
-
-  - **N3 Connection Fails**:
-    - Verify UDP port 2152 is not blocked
-    - Check UPF address is reachable from O-CU/O-DU
-    - Ensure GTP-U tunneling is properly configured
-
-  - **Service Discovery Issues**:
-    - Verify NRF is running and accessible
-    - Check SBI ports (default 7777) are open
-    - Ensure HTTP/2 is supported for Service-Based Interfaces
-
-  #### Network Architecture Flow
-  UE <--> O-RU <--> O-DU <--> O-CU
-                                |
-                                | N2 (NGAP/SCTP:38412) → AMF
-                                | N3 (GTP-U/UDP:2152) → UPF
-                                |
-                          5G Core Network
-                                |
-                    AMF ←→ SMF ←→ UPF
-                     |      |      |
-                     └──────┴──────┘
-                           NRF
-                      (Service Discovery)
 
 
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
