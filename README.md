@@ -158,5 +158,6 @@
   | **Session Management** | SMF | UPF | **N4** | PFCP over UDP | **8805** | Session and QoS control |
   | **Service Discovery** | All NFs | NRF | **SBI** | HTTP/2 | **7777** (NRF) | Network function registration and discovery |
 
+</details>
 
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
