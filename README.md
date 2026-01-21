@@ -119,7 +119,7 @@
 <details>
   <summary><strong>O-RAN connected with  5G CN</strong></summary>
   
-  ![Connection](others/O-RAN Architecture.png)
+  ![Connection](others/O-RAN-Architecture.png)
 
 </details>
 
