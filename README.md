@@ -55,13 +55,14 @@
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
-<a id="5G-CN"></a>
+<a id="O-RAN"></a>
 <details>
   <summary><strong>Open Radio Access Network (O-RAN)</strong></summary>
   
   ![Open Radio Access Network](others/O-RAN.png)
 
 </details>
+
 <a id="5G-CN"></a>
 <details>
   <summary><strong>5G Core Network (5G CN)</strong></summary>
@@ -113,4 +114,14 @@
 
 </details>
  
+
+ <a id="whole-architecture"></a>
+<details>
+  <summary><strong>O-RAN connected with  5G CN</strong></summary>
+  
+  ![Connection](others/O-RAN Architecture.png)
+
+</details>
+
+
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
