@@ -57,12 +57,14 @@
 
 <a id="5G-CN"></a>
 <details>
-  <summary><strong>Radio Access Network (RAN)</strong></summary>
+  <summary><strong>Open Radio Access Network (O-RAN)</strong></summary>
+  
+  ![Open Radio Access Network](others/O-RAN.png)
 
 </details>
 <a id="5G-CN"></a>
 <details>
-  <summary><strong>5G Core Network (CN)</strong></summary>
+  <summary><strong>5G Core Network (5G CN)</strong></summary>
 
   ![5G Core Network](others/Open5GS.jpg)
 
