@@ -55,9 +55,14 @@
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
-<a id="ran"></a>
+<a id="5G-CN"></a>
 <details>
-  <summary><strong>5G Core Network</strong></summary>
+  <summary><strong>Radio Access Network (RAN)</strong></summary>
+
+</details>
+<a id="5G-CN"></a>
+<details>
+  <summary><strong>5G Core Network (CN)</strong></summary>
 
   ![5G Core Network](others/Open5GS.jpg)
 
