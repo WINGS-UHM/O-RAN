@@ -60,6 +60,7 @@
   <summary><strong>Open Radio Access Network (O-RAN)</strong></summary>
   
   ![Open Radio Access Network](others/O-RAN.png)
+  [Detailed O-RAN Specification](https://specifications.o-ran.org/specifications)
 
 </details>
 
