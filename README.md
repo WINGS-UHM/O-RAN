@@ -55,8 +55,12 @@
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
+</details>
+
+<a id="ran"></a>
+<details>
+  <summary><strong>5G Core Network</strong></summary>
+  ![5G Core Network](others/Open5GS.jpg)
+</details>
  
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
-
-
-
