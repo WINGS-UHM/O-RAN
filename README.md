@@ -151,12 +151,6 @@
 
   #### Interface Details and Port Configuration
 
-  | Connection | From | To | Interface | Protocol | Default Port | Description |
-  |-----------|------|----|-----------|----------|--------------|-------------|
-  | **Control Plane** | O-CU / gNB | AMF | **N2** | NGAP over SCTP | **38412** | Access and Mobility Management signaling |
-  | **User Plane** | O-CU / O-DU | UPF | **N3** | GTP-U over UDP | **2152** | User data packet forwarding |
-  | **Session Management** | SMF | UPF | **N4** | PFCP over UDP | **8805** | Session and QoS control |
-  | **Service Discovery** | All NFs | NRF | **SBI** | HTTP/2 | **7777** (NRF) | Network function registration and discovery |
 
 </details>
 
