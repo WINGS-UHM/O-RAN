@@ -55,12 +55,55 @@
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
-</details>
-
 <a id="ran"></a>
 <details>
   <summary><strong>5G Core Network</strong></summary>
+
   ![5G Core Network](others/Open5GS.jpg)
+
+  ### 5G Core Network Components
+
+  Open5GS is an open-source implementation of the 5G Core Network, consisting of the following main components:
+
+  #### Control Plane Components
+  - **AMF (Access and Mobility Management Function)** - Access and Mobility Management Function
+    - Responsible for access authentication, mobility management, and connection management of user equipment
+
+  - **SMF (Session Management Function)** - Session Management Function
+    - Responsible for establishing, managing, and releasing PDU sessions, as well as UPF selection and control
+
+  - **AUSF (Authentication Server Function)** - Authentication Server Function
+    - Responsible for performing authentication for both 3GPP and non-3GPP access
+
+  - **UDM (Unified Data Management)** - Unified Data Management
+    - Responsible for generating 3GPP authentication credentials, user identification handling, access authorization, etc.
+
+  - **PCF (Policy Control Function)** - Policy Control Function
+    - Responsible for providing policy rules to control network behavior
+
+  - **NRF (Network Repository Function)** - Network Repository Function
+    - Supports service discovery functionality, enabling network functions to discover each other
+
+  - **NSSF (Network Slice Selection Function)** - Network Slice Selection Function
+    - Responsible for selecting appropriate network slice instances
+
+  - **BSF (Binding Support Function)** - Binding Support Function
+    - Used to support policy and charging control in IP Multimedia Subsystem (IMS) scenarios
+
+  - **CHF (Charging Function)** - Charging Function
+    - Responsible for handling charging and billing functions
+
+  #### User Plane Components
+  - **UPF (User Plane Function)** - User Plane Function
+    - Responsible for packet routing and forwarding, packet inspection, QoS handling, and other user plane related functions
+
+  #### Other Components
+  - **NEF (Network Exposure Function)** - Network Exposure Function
+    - Provides secure APIs for third-party applications to access network functions and information
+
+  - **N3IWF (Non-3GPP Interworking Function)** - Non-3GPP Interworking Function
+    - Supports connectivity of non-3GPP access (e.g., Wi-Fi) to the 5G core network
+
 </details>
  
 <h2 align="center">🗓🗓 Milestone 🗓🗓</h2>
