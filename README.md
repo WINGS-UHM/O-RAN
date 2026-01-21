@@ -13,7 +13,8 @@
 - Saurabh Parkar (Ph.D. Student at UH Manoa) <br>
 - Thomas Yang (Master Student at UH Manoa) <br>
 - Aris Carlos (Master Student at UH Manoa) <br>
-- Ethan Morrell (Master Student at UH Manoa)
+- Ethan Morrell (Master Student at UH Manoa) <br>
+- Matthew Matsuo (Master Student at UH Manoa)
 
 <h2 align="center">👇👇 Get Started 👇👇</h2>
 
