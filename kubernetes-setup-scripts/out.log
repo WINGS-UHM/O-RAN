@@ -1,0 +1,210 @@
+Python 3.12.3
+Requirement already satisfied: cryptography in /local/venv/oran-kubernetes/lib/python3.12/site-packages (42.0.7)
+Requirement already satisfied: future in /local/venv/oran-kubernetes/lib/python3.12/site-packages (1.0.0)
+Requirement already satisfied: six in /local/venv/oran-kubernetes/lib/python3.12/site-packages (1.17.0)
+Requirement already satisfied: lxml in /local/venv/oran-kubernetes/lib/python3.12/site-packages (6.0.2)
+Requirement already satisfied: pip in /local/venv/oran-kubernetes/lib/python3.12/site-packages (24.0)
+Requirement already satisfied: cffi>=1.12 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cryptography) (2.0.0)
+Requirement already satisfied: pycparser in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cffi>=1.12->cryptography) (3.0)
+MIRRORSETUP=1
+local_PFQDN_corsairy
+/usr/local/bin/yq
+branch 'release-2.25' set up to track 'origin/release-2.25'.
+Requirement already satisfied: ansible==9.5.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 1)) (9.5.1)
+Requirement already satisfied: cryptography==42.0.7 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 2)) (42.0.7)
+Requirement already satisfied: jinja2==3.1.4 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 3)) (3.1.4)
+Requirement already satisfied: jmespath==1.0.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 4)) (1.0.1)
+Requirement already satisfied: jsonschema==4.22.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 5)) (4.22.0)
+Requirement already satisfied: MarkupSafe==2.1.5 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 6)) (2.1.5)
+Requirement already satisfied: netaddr==1.2.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 7)) (1.2.1)
+Requirement already satisfied: pbr==6.0.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 8)) (6.0.0)
+Requirement already satisfied: ruamel.yaml==0.18.6 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 9)) (0.18.6)
+Requirement already satisfied: ruamel.yaml.clib==0.2.8 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 10)) (0.2.8)
+Requirement already satisfied: ansible-core~=2.16.6 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (2.16.15)
+Requirement already satisfied: cffi>=1.12 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cryptography==42.0.7->-r kubespray/requirements.txt (line 2)) (2.0.0)
+Requirement already satisfied: attrs>=22.2.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (25.4.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (0.37.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (0.30.0)
+Requirement already satisfied: PyYAML>=5.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible-core~=2.16.6->ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (6.0.3)
+Requirement already satisfied: packaging in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible-core~=2.16.6->ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (26.0)
+Requirement already satisfied: resolvelib<1.1.0,>=0.5.3 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible-core~=2.16.6->ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (1.0.1)
+Requirement already satisfied: pycparser in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cffi>=1.12->cryptography==42.0.7->-r kubespray/requirements.txt (line 2)) (3.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from referencing>=0.28.4->jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (4.15.0)
+
+wawawa==========================
+Using /local/setup/kubespray/ansible.cfg as config file
+
+PLAY [Check Ansible version] ***************************************************
+skipping: no hosts matched
+
+PLAY [Add kube-master nodes to kube_control_plane] *****************************
+skipping: no hosts matched
+
+PLAY [Add kube-node nodes to kube_node] ****************************************
+skipping: no hosts matched
+
+PLAY [Add k8s-cluster nodes to k8s_cluster] ************************************
+skipping: no hosts matched
+
+PLAY [Add calico-rr nodes to calico_rr] ****************************************
+skipping: no hosts matched
+
+PLAY [Add no-floating nodes to no_floating] ************************************
+skipping: no hosts matched
+
+PLAY [Install bastion ssh config] **********************************************
+skipping: no hosts matched
+
+PLAY [Bootstrap hosts for Ansible] *********************************************
+skipping: no hosts matched
+
+PLAY [Gather facts] ************************************************************
+skipping: no hosts matched
+
+PLAY [Prepare for etcd install] ************************************************
+skipping: no hosts matched
+
+PLAY [Add worker nodes to the etcd play if needed] *****************************
+skipping: no hosts matched
+
+PLAY [Install etcd] ************************************************************
+skipping: no hosts matched
+
+PLAY [Install Kubernetes nodes] ************************************************
+skipping: no hosts matched
+
+PLAY [Install the control plane] ***********************************************
+skipping: no hosts matched
+
+PLAY [Invoke kubeadm and install a CNI] ****************************************
+skipping: no hosts matched
+
+PLAY [Install Calico Route Reflector] ******************************************
+skipping: no hosts matched
+
+PLAY [Patch Kubernetes for Windows] ********************************************
+skipping: no hosts matched
+
+PLAY [Install Kubernetes apps] *************************************************
+skipping: no hosts matched
+
+PLAY [Apply resolv.conf changes now that cluster DNS is up] ********************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************
+
+Wednesday 28 January 2026  19:53:44 -1000 (0:00:00.033)       0:00:00.033 ***** 
+=============================================================================== 
+/snap/bin/microk8s
+/snap/bin/kubectl
+/snap/bin/helm
+/usr/bin/docker
+pod/calico-kube-controllers-5947598c79-zhdcv condition met
+pod/calico-node-9dgdd condition met
+pod/coredns-79b94494c7-cns6h condition met
+Python 3.12.3
+Requirement already satisfied: cryptography in /local/venv/oran-kubernetes/lib/python3.12/site-packages (42.0.7)
+Requirement already satisfied: future in /local/venv/oran-kubernetes/lib/python3.12/site-packages (1.0.0)
+Requirement already satisfied: six in /local/venv/oran-kubernetes/lib/python3.12/site-packages (1.17.0)
+Requirement already satisfied: lxml in /local/venv/oran-kubernetes/lib/python3.12/site-packages (6.0.2)
+Requirement already satisfied: pip in /local/venv/oran-kubernetes/lib/python3.12/site-packages (24.0)
+Requirement already satisfied: cffi>=1.12 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cryptography) (2.0.0)
+Requirement already satisfied: pycparser in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cffi>=1.12->cryptography) (3.0)
+MIRRORSETUP=1
+local_PFQDN_corsairy
+/usr/local/bin/yq
+branch 'release-2.25' set up to track 'origin/release-2.25'.
+Requirement already satisfied: ansible==9.5.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 1)) (9.5.1)
+Requirement already satisfied: cryptography==42.0.7 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 2)) (42.0.7)
+Requirement already satisfied: jinja2==3.1.4 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 3)) (3.1.4)
+Requirement already satisfied: jmespath==1.0.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 4)) (1.0.1)
+Requirement already satisfied: jsonschema==4.22.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 5)) (4.22.0)
+Requirement already satisfied: MarkupSafe==2.1.5 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 6)) (2.1.5)
+Requirement already satisfied: netaddr==1.2.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 7)) (1.2.1)
+Requirement already satisfied: pbr==6.0.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 8)) (6.0.0)
+Requirement already satisfied: ruamel.yaml==0.18.6 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 9)) (0.18.6)
+Requirement already satisfied: ruamel.yaml.clib==0.2.8 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from -r kubespray/requirements.txt (line 10)) (0.2.8)
+Requirement already satisfied: ansible-core~=2.16.6 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (2.16.15)
+Requirement already satisfied: cffi>=1.12 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cryptography==42.0.7->-r kubespray/requirements.txt (line 2)) (2.0.0)
+Requirement already satisfied: attrs>=22.2.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (25.4.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (0.37.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (0.30.0)
+Requirement already satisfied: PyYAML>=5.1 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible-core~=2.16.6->ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (6.0.3)
+Requirement already satisfied: packaging in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible-core~=2.16.6->ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (26.0)
+Requirement already satisfied: resolvelib<1.1.0,>=0.5.3 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from ansible-core~=2.16.6->ansible==9.5.1->-r kubespray/requirements.txt (line 1)) (1.0.1)
+Requirement already satisfied: pycparser in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from cffi>=1.12->cryptography==42.0.7->-r kubespray/requirements.txt (line 2)) (3.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in /local/venv/oran-kubernetes/lib/python3.12/site-packages (from referencing>=0.28.4->jsonschema==4.22.0->-r kubespray/requirements.txt (line 5)) (4.15.0)
+
+wawawa==========================
+Using /local/setup/kubespray/ansible.cfg as config file
+
+PLAY [Check Ansible version] ***************************************************
+skipping: no hosts matched
+
+PLAY [Add kube-master nodes to kube_control_plane] *****************************
+skipping: no hosts matched
+
+PLAY [Add kube-node nodes to kube_node] ****************************************
+skipping: no hosts matched
+
+PLAY [Add k8s-cluster nodes to k8s_cluster] ************************************
+skipping: no hosts matched
+
+PLAY [Add calico-rr nodes to calico_rr] ****************************************
+skipping: no hosts matched
+
+PLAY [Add no-floating nodes to no_floating] ************************************
+skipping: no hosts matched
+
+PLAY [Install bastion ssh config] **********************************************
+skipping: no hosts matched
+
+PLAY [Bootstrap hosts for Ansible] *********************************************
+skipping: no hosts matched
+
+PLAY [Gather facts] ************************************************************
+skipping: no hosts matched
+
+PLAY [Prepare for etcd install] ************************************************
+skipping: no hosts matched
+
+PLAY [Add worker nodes to the etcd play if needed] *****************************
+skipping: no hosts matched
+
+PLAY [Install etcd] ************************************************************
+skipping: no hosts matched
+
+PLAY [Install Kubernetes nodes] ************************************************
+skipping: no hosts matched
+
+PLAY [Install the control plane] ***********************************************
+skipping: no hosts matched
+
+PLAY [Invoke kubeadm and install a CNI] ****************************************
+skipping: no hosts matched
+
+PLAY [Install Calico Route Reflector] ******************************************
+skipping: no hosts matched
+
+PLAY [Patch Kubernetes for Windows] ********************************************
+skipping: no hosts matched
+
+PLAY [Install Kubernetes apps] *************************************************
+skipping: no hosts matched
+
+PLAY [Apply resolv.conf changes now that cluster DNS is up] ********************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************
+
+Wednesday 28 January 2026  19:54:12 -1000 (0:00:00.030)       0:00:00.030 ***** 
+=============================================================================== 
+/snap/bin/microk8s
+/snap/bin/kubectl
+/snap/bin/helm
+/usr/bin/docker
+pod/calico-kube-controllers-5947598c79-zhdcv condition met
+pod/calico-node-9dgdd condition met
+pod/coredns-79b94494c7-cns6h condition met
