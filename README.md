@@ -61,7 +61,10 @@
 
   <summary><strong>Open Radio Access Network (O-RAN)</strong></summary>
   
-  ![Testbed Setting@UHM](others/Testbed.svg)
+  <p align="center">
+    <img src="others/Testbed.svg" />
+  </p>
+
 
   ### Setting
 
