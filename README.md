@@ -58,31 +58,12 @@
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
 <a id="O-RAN"></a>
-<details>
+
   <summary><strong>Open Radio Access Network (O-RAN)</strong></summary>
   
-  ![Open Radio Access Network](others/O-RAN.png)
-  [Detailed O-RAN Specification](https://specifications.o-ran.org/specifications)
+  ![Testbed Setting @ UHM](others/Testbed.SVG)
 
-  ### Overview
-
-  O-RAN (Open Radio Access Network) is a disaggregated, open, and intelligent RAN architecture that separates the RAN into three main components:
-
-  - **O-CU (Central Unit)**: Handles higher-layer protocols (RRC, PDCP) and connects to the 5G Core Network
-  - **O-DU (Distributed Unit)**: Handles lower-layer protocols (RLC, MAC, PHY) and connects to the O-RU
-  - **O-RU (Radio Unit)**: Handles the RF transmission/reception
-
-  ### O-RAN Key Components
-
-  - **Near-RT RIC (Near-Real-Time RAN Intelligent Controller)**
-    - Provides real-time optimization and control of RAN elements
-    - Located between the RAN and the 5G Core Network
-
-  - **E2 Interface**: Connects Near-RT RIC with O-CU/O-DU (E2SM services)
-  - **E1 Interface**: Connects O-CU-CP and O-CU-UP within O-CU
-  - **F1 Interface**: Connects O-CU and O-DU
-
-</details>
+  ### Setting
 
 <a id="5G-CN"></a>
 <details>
