@@ -1,0 +1,10530 @@
+{
+  "type": "metrics",
+  "timestamp": 1770265292.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 0,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 704932,
+    "proc_vmem_kB": 1455312,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 19,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265292.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 3,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 723116,
+    "proc_vmem_kB": 1586696,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 19,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265293.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 5,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 723116,
+    "proc_vmem_kB": 1586696,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 19,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265293.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0007529412
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 10
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 16
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265294.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 5,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265294.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 0,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265295.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013202358,
+    "ul_bitrate": 0.0013202358
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 10
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265295.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0031372549
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 9
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265296.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.001317647,
+    "ul_bitrate": 0.001317647
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265296.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0031496063
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265297.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013254437,
+    "ul_bitrate": 0.0013254437
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 7,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265297.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0031311156
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 3,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 16
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265298.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013228346,
+    "ul_bitrate": 0.0013228346
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265298.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0058980393
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 16
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265299.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013280632,
+    "ul_bitrate": 0.0013280632
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265299.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0027826086
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 16
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265300.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.001317647,
+    "ul_bitrate": 0.001317647
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265300.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 1,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265301.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013254437
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265301.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013150685,
+    "ul_bitrate": 0.0021291585
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265302.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013254437,
+    "ul_bitrate": 0.0013254437
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265302.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265303.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013202358,
+    "ul_bitrate": 0.0013202358
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265303.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265304.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.001317647,
+    "ul_bitrate": 0.001317647
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265304.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265305.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013150685
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265305.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013099415,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265306.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013099415
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265306.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.001317647,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 10
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 10
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265307.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013228346
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265307.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265308.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013125
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265308.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0026404716,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 16
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265309.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013202358
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265309.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265310.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013125
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265310.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013150685,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265311.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013254437
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 10
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265311.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013150685,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 5,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265312.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0013048544
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 2,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265312.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013202358,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 3,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751492,
+    "proc_vmem_kB": 1680460,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265313.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.001317647
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 3,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 9
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265313.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.001317647,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265314.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.001317647
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 3,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265314.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 5,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265315.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0013228346,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 3,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265315.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 7,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 18
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265316.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 3,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265316.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265317.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 10
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 10
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 22
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265317.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 20,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 11
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265318.007,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 4,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 1,
+    "proc_thread_count": 19,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 12
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 13
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 6
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 4
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 16
+        }
+      }
+    ]
+  }
+}
+{
+  "type": "metrics",
+  "timestamp": 1770265318.507,
+  "carrier_list": [
+  ],
+  "gw_container": {
+    "dl_bitrate": 0.0,
+    "ul_bitrate": 0.0
+  },
+  "rrc_container": {
+    "rrc_state": "IDLE"
+  },
+  "neighbour_cell_list": [
+  ],
+  "nas_container": {
+    "emm_state": "NULL"
+  },
+  "rf_container": {
+    "rf_o": 0,
+    "rf_u": 6,
+    "rf_l": 0
+  },
+  "sys_memory_container": {
+    "proc_realmem_percent": 1,
+    "proc_realmem_kB": 751624,
+    "proc_vmem_kB": 1745996,
+    "sys_mem_usage_percent": 19
+  },
+  "sys_cpu_container": {
+    "proc_cpu_usage": 0,
+    "proc_thread_count": 19,
+    "cpu_core_list": [
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 15
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 19
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 7
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 21
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 5
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 3
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 1
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 0
+        }
+      },
+      {
+        "cpu_core_container": {
+          "sys_core_usage": 17
+        }
+      }
+    ]
+  }
+}
