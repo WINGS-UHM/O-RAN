@@ -52,8 +52,8 @@
    - [srsRan Project](https://github.com/srsran/srsRAN_project)
    - E2-ORAN Compliant POWDER RAN [[Repo](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric), [srslte script](https://gitlab.flux.utah.edu/powder-profiles/oran/-/blob/master/setup-srslte.sh?ref_type=heads)]
 4. Some Setup scripts from [POWDER ORAN deployment](https://gitlab.flux.utah.edu/powder-profiles/oran)
-</details>
 5. srsRAN [matlab for furture testings](https://docs.srsran.com/projects/project/en/latest/tutorials/source/matlab/source/index.html)
+</details>
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
