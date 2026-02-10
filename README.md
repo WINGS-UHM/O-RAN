@@ -50,6 +50,7 @@
 3. RAN Stacks
    - [Open5Gs](https://open5gs.org/open5gs/docs/guide/01-quickstart/)
    - [srsRan Project](https://github.com/srsran/srsRAN_project)
+   - [OAI 5G Setup](https://hackmd.io/@praveeng/6GMLAB-OAI-5G-SETUP-GUIDE#OAI-5G-SA-Setup-Guide)
    - E2-ORAN Compliant POWDER RAN [[Repo](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric), [srslte script](https://gitlab.flux.utah.edu/powder-profiles/oran/-/blob/master/setup-srslte.sh?ref_type=heads)]
 4. Some Setup scripts from [POWDER ORAN deployment](https://gitlab.flux.utah.edu/powder-profiles/oran)
 5. srsRAN [matlab for furture testings](https://docs.srsran.com/projects/project/en/latest/tutorials/source/matlab/source/index.html)
