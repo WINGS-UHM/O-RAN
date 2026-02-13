@@ -19,6 +19,7 @@ METALLB_POOL="${METALLB_POOL:-10.0.2.100-10.0.2.110}"
 # Kubespray location and version
 KUBESPRAY_DIR="${KUBESPRAY_DIR:-$HOME/kubespray}"
 KUBESPRAY_BRANCH="${KUBESPRAY_BRANCH:-release-2.26}"
+CONTAINERMANAGER="docker"
 
 # Where to store generated inventory
 INVDIR="${INVDIR:-$HOME/inventories/kubernetes-single}"
@@ -51,6 +52,45 @@ if ! ip link show "${CALICO_IFACE}" >/dev/null 2>&1; then
   echo "Run: ip link"
   exit 1
 fi
+
+# =========================
+# SSH Client/Server Setup (internal key: ric-ssh)
+# =========================
+log "Installing OpenSSH client/server"
+sudo apt update
+sudo apt install -y openssh-client openssh-server
+
+log "Enabling and starting ssh service"
+sudo systemctl enable ssh
+sudo systemctl restart ssh
+
+SSH_KEY="$HOME/.ssh/ric-ssh"
+
+log "Generating internal SSH key (ric-ssh) if not present"
+mkdir -p "$HOME/.ssh"
+chmod 700 "$HOME/.ssh"
+
+if [ ! -f "${SSH_KEY}" ]; then
+  ssh-keygen -t ed25519 -f "${SSH_KEY}" -C "ric-ansible-key" -N ""
+fi
+
+log "Installing public key for ${ANSIBLE_USER}"
+PUB_KEY_CONTENT="$(cat ${SSH_KEY}.pub)"
+
+sudo -u "${ANSIBLE_USER}" mkdir -p "/home/${ANSIBLE_USER}/.ssh"
+sudo -u "${ANSIBLE_USER}" touch "/home/${ANSIBLE_USER}/.ssh/authorized_keys"
+
+if ! sudo grep -q "${PUB_KEY_CONTENT}" "/home/${ANSIBLE_USER}/.ssh/authorized_keys"; then
+  echo "${PUB_KEY_CONTENT}" | sudo tee -a "/home/${ANSIBLE_USER}/.ssh/authorized_keys" >/dev/null
+fi
+
+sudo chown -R "${ANSIBLE_USER}:${ANSIBLE_USER}" "/home/${ANSIBLE_USER}/.ssh"
+sudo chmod 700 "/home/${ANSIBLE_USER}/.ssh"
+sudo chmod 600 "/home/${ANSIBLE_USER}/.ssh/authorized_keys"
+
+log "SSH preflight complete. Testing local SSH login..."
+ssh -o StrictHostKeyChecking=no -i "${SSH_KEY}" "${ANSIBLE_USER}@${NODE_IP}" "echo SSH OK"
+
 
 # Disable swap now (Kubespray also does it, but do it upfront to avoid kubelet surprises)
 log "Disabling swap (runtime)"
@@ -128,8 +168,14 @@ log "Writing overrides.yml"
 OVERRIDES="$INVDIR/overrides.yml"
 cat > "$OVERRIDES" <<EOF
 override_system_hostname: false
+docker_dns_servers_strict: false
+kubectl_localhost: true
+kubeconfig_localhost: true
+container_manager: ${CONTAINERMANAGER}
+docker_storage_options: -s overlay2
 disable_swap: true
 ansible_user: ${ANSIBLE_USER}
+ansible_ssh_private_key_file: ~/.ssh/ric-ssh
 
 # Single-node: allow scheduling on control plane
 remove_node_taints: true
@@ -168,8 +214,9 @@ ansible-playbook -i "$INV" cluster.yml -e @"$OVERRIDES" -b -v -K
 log "Configuring kubectl for current user"
 mkdir -p "$HOME/.kube"
 if [ -f "$INVDIR/artifacts/admin.conf" ]; then
-  cp -f "$INVDIR/artifacts/admin.conf" "$HOME/.kube/config"
-  chmod 600 "$HOME/.kube/config"
+  sudo cp -f "/etc/kubernetes//admin.conf" "$HOME/.kube/config"
+  sudo chmod 600 "$HOME/.kube/config"
+  sudo chown nexus -R "$HOME/.kube/config"
 else
   echo "WARNING: admin.conf not found at $INVDIR/artifacts/admin.conf"
 fi
