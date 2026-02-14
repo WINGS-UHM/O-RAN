@@ -8,13 +8,38 @@ set -euo pipefail
 #   node ip: 10.0.2.15
 # MetalLB pool here is only for shows-up-inside-VM testing.
 # =========================
+# =========================
+# Helpers
+# =========================
+log() { printf "\n[%s] %s\n" "$(date +%H:%M:%S)" "$*"; }
+
+need_cmd() {
+  command -v "$1" >/dev/null 2>&1 || { echo "Missing required command: $1"; exit 1; }
+}
 
 # --- EDIT THESE IF NEEDED ---
 NODE_NAME="${NODE_NAME:-node1}"
-NODE_IP="${NODE_IP:-10.0.2.15}"
-ANSIBLE_USER="${ANSIBLE_USER:-nexus}"
-CALICO_IFACE="${CALICO_IFACE:-enp0s3}"
-METALLB_POOL="${METALLB_POOL:-10.0.2.100-10.0.2.110}"
+NODE_IP="${NODE_IP:-192.168.50.103}"
+ANSIBLE_USER="${ANSIBLE_USER:-admin}"
+CALICO_IFACE="${CALICO_IFACE:-eno1}"
+METALLB_POOL="${METALLB_POOL:-192.168.50.245-192.168.50.246}"
+
+# if ! command -v docker >/dev/null 2>&1; then
+#   echo "Docker not found — installing..."
+#   sudo apt update
+#   sudo apt install -y docker.io
+#   sudo systemctl enable --now docker
+# else
+#   echo "Docker already installed — skipping."
+# fi
+# Which user to add to docker group (optional)
+DOCKER_USER="${DOCKER_USER:-$USER}"
+ADD_DOCKER_GROUP="${ADD_DOCKER_GROUP:-1}"   # set to 1 if you want this
+if [[ "$ADD_DOCKER_GROUP" == "1" ]]; then
+  log "Adding $DOCKER_USER to docker group"
+  sudo usermod -aG docker "$DOCKER_USER" || true
+  log "Note: re-login required for docker group membership to take effect"
+fi
 
 # Kubespray location and version
 KUBESPRAY_DIR="${KUBESPRAY_DIR:-$HOME/kubespray}"
@@ -24,14 +49,6 @@ CONTAINERMANAGER="docker"
 # Where to store generated inventory
 INVDIR="${INVDIR:-$HOME/inventories/kubernetes-single}"
 
-# =========================
-# Helpers
-# =========================
-log() { printf "\n[%s] %s\n" "$(date +%H:%M:%S)" "$*"; }
-
-need_cmd() {
-  command -v "$1" >/dev/null 2>&1 || { echo "Missing required command: $1"; exit 1; }
-}
 
 # =========================
 # Preflight
@@ -216,7 +233,7 @@ mkdir -p "$HOME/.kube"
 if [ -f "$INVDIR/artifacts/admin.conf" ]; then
   sudo cp -f "/etc/kubernetes//admin.conf" "$HOME/.kube/config"
   sudo chmod 600 "$HOME/.kube/config"
-  sudo chown nexus -R "$HOME/.kube/config"
+  sudo chown $USER -R "$HOME/.kube/config"
 else
   echo "WARNING: admin.conf not found at $INVDIR/artifacts/admin.conf"
 fi
@@ -225,6 +242,8 @@ fi
 # Post checks
 # =========================
 log "Post checks"
+sudo chown root:$USER /etc/kubernetes/admin.conf
+sudo chmod 640 /etc/kubernetes/admin.conf
 need_cmd kubectl
 
 kubectl get nodes -o wide

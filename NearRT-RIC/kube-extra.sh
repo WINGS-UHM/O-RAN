@@ -4,10 +4,7 @@ set -euo pipefail
 # ========= USER SETTINGS =========
 # Where to write outputs (token, kubeconfig, marker file)
 OUTDIR="${OUTDIR:-$HOME/k8s-extra}"
-sudo apt install docker.io -y
-# Which user to add to docker group (optional)
-DOCKER_USER="${DOCKER_USER:-$USER}"
-ADD_DOCKER_GROUP="${ADD_DOCKER_GROUP:-1}"   # set to 1 if you want this
+
 
 # Run a local docker registry (optional)
 DO_LOCAL_REGISTRY="${DO_LOCAL_REGISTRY:-1}" # set to 1 to enable
@@ -16,7 +13,7 @@ REGISTRY_PORT="${REGISTRY_PORT:-5000}"
 
 # NFS provisioner (optional)
 DO_NFS_PROVISIONER="${DO_NFS_PROVISIONER:-1}"      # set to 1 to enable
-NFS_SERVER_IP="${NFS_SERVER_IP:-10.0.2.15}"                 # required if DO_NFS_PROVISIONER=1
+NFS_SERVER_IP="${NFS_SERVER_IP:-192.168.50.103}"                 # required if DO_NFS_PROVISIONER=1
 NFS_EXPORT_PATH="${NFS_EXPORT_PATH:-/export/k8s}"   # your export
 NFS_MOUNT_OPTIONS="${NFS_MOUNT_OPTIONS:-nfsvers=3}"
 
@@ -129,11 +126,7 @@ sudo cp -f "$HOME/.kube/config" "$OUTDIR/kubeconfig"
 chmod 644 "$OUTDIR/kubeconfig"
 
 # ========= 4) Optional: add user to docker group =========
-if [[ "$ADD_DOCKER_GROUP" == "1" ]]; then
-  log "Adding $DOCKER_USER to docker group"
-  sudo usermod -aG docker "$DOCKER_USER" || true
-  log "Note: re-login required for docker group membership to take effect"
-fi
+
 
 # ========= 5) Optional: local insecure registry =========
 if [[ "$DO_LOCAL_REGISTRY" == "1" ]]; then
@@ -256,6 +249,7 @@ Login token:
   $( [ -f "$HOME/k8s-extra/admin-token.txt" ] && cat "$HOME/k8s-extra/admin-token.txt" || echo "Use an admin token (admin-token.txt not found)" )
 
 EOF
+nohup kubectl -n headlamp port-forward svc/headlamp 127.0.0.1:8080:80 >/dev/null 2>&1 &
 
 
 
