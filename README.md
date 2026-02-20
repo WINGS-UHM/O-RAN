@@ -8,7 +8,7 @@
 ![license](https://img.shields.io/github/license/WINGS-UHM/O-RAN?cacheSeconds=60)
 
 
-✍️✍️ **Authors** ✍️✍️ [No ranking]
+<h2 align="center">✍️✍️ Authors ✍️✍️</h2>
 - Xiaochan Xue (Assistant Professor at UH Manoa) <br>
 - Saurabh Parkar (Ph.D. Student at UH Manoa) <br>
 - Thomas Yang (Master Student at UH Manoa) <br>
@@ -50,10 +50,11 @@
 3. RAN Stacks
    - [Open5Gs](https://open5gs.org/open5gs/docs/guide/01-quickstart/)
    - [srsRan Project](https://github.com/srsran/srsRAN_project)
+   - [OAI 5G Setup](https://hackmd.io/@praveeng/6GMLAB-OAI-5G-SETUP-GUIDE#OAI-5G-SA-Setup-Guide)
    - E2-ORAN Compliant POWDER RAN [[Repo](https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric), [srslte script](https://gitlab.flux.utah.edu/powder-profiles/oran/-/blob/master/setup-srslte.sh?ref_type=heads)]
 4. Some Setup scripts from [POWDER ORAN deployment](https://gitlab.flux.utah.edu/powder-profiles/oran)
-</details>
 5. srsRAN [matlab for furture testings](https://docs.srsran.com/projects/project/en/latest/tutorials/source/matlab/source/index.html)
+</details>
 
 <h2 align="center">🔗🔗 Architecture 🔗🔗</h2>
 
