@@ -63,7 +63,7 @@
   <summary><strong>Open Radio Access Network (O-RAN)</strong></summary>
   
   <p align="center">
-    <img src="others/Testbed.svg" />
+    <img src="outputs/Testbed.svg" />
   </p>
 
 
@@ -73,7 +73,7 @@
 <details>
   <summary><strong>5G Core Network (5G CN)</strong></summary>
 
-  ![5G Core Network](others/Open5GS.jpg)
+  ![5G Core Network](outputs/Open5GS.jpg)
 
   ### 5G Core Network Components
 
@@ -124,7 +124,7 @@
 <details>
   <summary><strong>O-RAN Connection with 5G Core Network</strong></summary>
   
-  ![Connection](others/O-RAN-Architecture.png)
+  ![Connection](outputs/O-RAN-Architecture.png)
 
   How O-RAN Connects to 5G Core Network？ Including the interfaces, protocols, and ports used for each connection.
 
