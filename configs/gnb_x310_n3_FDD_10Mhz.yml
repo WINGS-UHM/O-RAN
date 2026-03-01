@@ -33,19 +33,19 @@ cell_cfg:
   plmn: "00101"
   tac: 7
   pci: 1
-  pdcch:
-    dedicated:
-      ss2_type: common
-      dci_format_0_1_and_1_1: false
-    common:
-      ss0_index: 0
-      coreset0_index: 6 # old 12
-  prach:
-    prach_config_index: 1
-  pdsch:
-    mcs_table: qam64
-  pusch:
-    mcs_table: qam64
+  # pdcch:
+  #   dedicated:
+  #     ss2_type: common
+  #     dci_format_0_1_and_1_1: false
+  #   common:
+  #     ss0_index: 0
+  #     coreset0_index: 6 # old 12
+  # prach:
+  #   prach_config_index: 1
+  # pdsch:
+  #   mcs_table: qam64
+  # pusch:
+  #   mcs_table: qam64
 
 e2:
   enable_du_e2: true                # Enable DU E2 agent (one for each DU instance)
