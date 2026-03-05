@@ -39,8 +39,8 @@ cd ric-dep/bin
 ./install -f ../RECIPE_EXAMPLE/example_recipe_oran_j_release.yaml -c "influxdb jaegeradapter"
 ./get-env.sh
 ```
-![get-env](../others/get-env.png)
+![get-env](../outputs/get-env.png)
 
-![ric-deploy](../others/ric-j-release-deployment.png)
+![ric-deploy](../outputs/ric-j-release-deployment.png)
 
 Detailed documentation will be updated at [project page](https://wings-uhm.github.io/Web/2025/10/01/oran/).
