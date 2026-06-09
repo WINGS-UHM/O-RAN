@@ -268,6 +268,20 @@ for i in {1..60}; do
     curl -sS "http://${EXT_IP}:5678" || true
     exit 0
   fi
+  log "Cleaning up echo LoadBalancer test service"
+  kubectl delete svc echo -n default --ignore-not-found=true
+  kubectl delete deploy echo -n default --ignore-not-found=true
+  if [ -n "${EXT_IP}" ]; then
+    log "Assigned EXTERNAL-IP: ${EXT_IP}"
+    log "Testing from inside VM: curl http://${EXT_IP}:5678"
+    curl -sS "http://${EXT_IP}:5678" || true
+
+    log "Cleaning up echo LoadBalancer test service"
+    kubectl delete svc echo -n default --ignore-not-found=true
+    kubectl delete deploy echo -n default --ignore-not-found=true
+
+    exit 0
+  fi
   sleep 1
 done
 
