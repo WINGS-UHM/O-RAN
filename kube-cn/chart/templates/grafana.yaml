@@ -1,0 +1,80 @@
+{{- if .Values.components.grafana }}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: grafana-storage
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: grafana
+spec:
+  accessModes: ["ReadWriteOnce"]
+  {{- if .Values.grafana.storage.storageClassName }}
+  storageClassName: {{ .Values.grafana.storage.storageClassName | quote }}
+  {{- end }}
+  resources:
+    requests:
+      storage: {{ .Values.grafana.storage.size | quote }}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: grafana
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: {{ .Release.Name }}
+      app.kubernetes.io/component: grafana
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/instance: {{ .Release.Name }}
+        app.kubernetes.io/component: grafana
+    spec:
+      containers:
+        - name: grafana
+          image: {{ include "fiveg.image" .Values.images.grafana | quote }}
+          imagePullPolicy: {{ .Values.images.grafana.pullPolicy }}
+          envFrom:
+            - configMapRef:
+                name: metrics-env
+          ports:
+            - name: http
+              containerPort: {{ .Values.grafana.port }}
+              protocol: TCP
+          volumeMounts:
+            - name: storage
+              mountPath: /var/lib/grafana
+          resources:
+            {{- toYaml .Values.grafana.resources | nindent 12 }}
+      volumes:
+        - name: storage
+          persistentVolumeClaim:
+            claimName: grafana-storage
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: grafana
+  annotations:
+    {{- toYaml .Values.grafana.service.annotations | nindent 4 }}
+spec:
+  type: {{ .Values.grafana.service.type }}
+  {{- if and (eq .Values.grafana.service.type "LoadBalancer") .Values.grafana.service.loadBalancerIP }}
+  loadBalancerIP: {{ .Values.grafana.service.loadBalancerIP | quote }}
+  {{- end }}
+  selector:
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/component: grafana
+  ports:
+    - name: http
+      port: {{ .Values.grafana.port }}
+      targetPort: http
+      protocol: TCP
+{{- end }}

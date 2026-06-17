@@ -1,0 +1,47 @@
+{{- if .Values.components.open5gs }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: open5gs-env
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+data:
+  MONGODB_IP: {{ .Values.open5gs.mongodbIP | quote }}
+  UE_IP_BASE: {{ .Values.open5gs.ueIPBase | quote }}
+  UPF_ADVERTISE_IP: {{ .Values.open5gs.upfAdvertiseIP | quote }}
+  DEBUG: {{ .Values.open5gs.debug | quote }}
+  SUBSCRIBER_DB: {{ .Values.open5gs.subscriberDB | quote }}
+  NETWORK_NAME_FULL: {{ .Values.open5gs.networkNameFull | quote }}
+  NETWORK_NAME_SHORT: {{ .Values.open5gs.networkNameShort | quote }}
+  TZ: {{ .Values.open5gs.timezone | quote }}
+{{- end }}
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: metrics-env
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+data:
+  WS_URL: {{ .Values.metrics.wsUrl | quote }}
+  TELEGRAF_INPUT_INTERVAL: {{ .Values.metrics.telegrafInputInterval | quote }}
+  TELEGRAF_OUTPUT_INTERVAL: {{ .Values.metrics.telegrafOutputInterval | quote }}
+  TELEGRAF_BUFFER_LIMIT: {{ .Values.metrics.telegrafBufferLimit | quote }}
+  TELEGRAF_QUIET: {{ .Values.metrics.telegrafQuiet | quote }}
+  TELEGRAF_DEBUG: {{ .Values.metrics.telegrafDebug | quote }}
+  INFLUXDB3_PORT: {{ .Values.influxdb.port | quote }}
+  INFLUXDB3_HTTP_BIND_ADDR: {{ .Values.influxdb.httpBindAddr | quote }}
+  INFLUXDB3_HOST_URL: {{ printf "http://127.0.0.1:%v" .Values.influxdb.port | quote }}
+  INFLUXDB3_EXTERNAL_URL: {{ .Values.influxdb.externalUrl | quote }}
+  INFLUXDB3_AUTH_TOKEN: {{ .Values.influxdb.authToken | quote }}
+  INFLUXDB3_BUCKET: {{ .Values.influxdb.bucket | quote }}
+  INFLUXDB3_TESTBED: {{ .Values.influxdb.testbed | quote }}
+  GNB_ID: {{ .Values.metrics.gnbId | quote }}
+  INFLUXDB3_LOG_LEVEL: {{ .Values.influxdb.logLevel | quote }}
+  INFLUXDB3_RATE_LIMIT: {{ .Values.influxdb.rateLimit | quote }}
+  INFLUXDB3_RATE_LIMIT_PERIOD: {{ .Values.influxdb.rateLimitPeriod | quote }}
+  GF_PORT: {{ .Values.grafana.port | quote }}
+  GF_AUTH_ANONYMOUS_ENABLED: {{ .Values.grafana.anonymousEnabled | quote }}
+  GF_LOG_LEVEL: {{ .Values.grafana.logLevel | quote }}
+  GF_DASHBOARDS_MIN_REFRESH_INTERVAL: {{ .Values.grafana.dashboardsMinRefreshInterval | quote }}
+  GF_PLUGINS_PLUGIN_ADMIN_ENABLED: {{ .Values.grafana.pluginsAdminEnabled | quote }}

@@ -1,0 +1,84 @@
+namespace: 5g-core
+releaseName: 5g-core
+
+components:
+  open5gs: true
+  influxdb: true
+  telegraf: true
+  grafana: true
+
+images:
+  open5gs:
+    repository: registry.local:5000/ocudu/open5gs-5gc
+    tag: v2.7.6-kube
+    pullPolicy: IfNotPresent
+  telegraf:
+    repository: registry.local:5000/ocudu/telegraf
+    tag: 1.35.0-kube
+    pullPolicy: IfNotPresent
+  grafana:
+    repository: registry.local:5000/ocudu/grafana
+    tag: 12.0.2-kube
+    pullPolicy: IfNotPresent
+  influxdb:
+    repository: influxdb
+    tag: 3.1.0-core
+    pullPolicy: IfNotPresent
+
+open5gs:
+  loadBalancerIP: 192.168.50.245
+  upfAdvertiseIP: 192.168.50.245
+  mongodbIP: 127.0.0.1
+  ueIPBase: 10.45.0
+  debug: "false"
+  subscriberDB: subscriber_db.csv
+  networkNameFull: WINGS_NW
+  networkNameShort: WINGS_NW
+  timezone: Pacific/Honolulu
+  service:
+    annotations: {}
+  securityContext:
+    privileged: true
+  resources: {}
+
+metrics:
+  wsUrl: 192.168.50.38:8001
+  gnbId: gnb0
+  telegrafInputInterval: 1s
+  telegrafOutputInterval: 1s
+  telegrafBufferLimit: "10000"
+  telegrafQuiet: "true"
+  telegrafDebug: "false"
+
+influxdb:
+  port: 8081
+  httpBindAddr: 0.0.0.0:8081
+  externalUrl: http://influxdb.5g-core.svc.cluster.local:8081
+  authToken: fake-token-1234567890abcdef
+  bucket: ocudu
+  testbed: default
+  logLevel: error
+  rateLimit: "0"
+  rateLimitPeriod: 0s
+  nodeId: node0
+  storage:
+    size: 10Gi
+    storageClassName: ""
+
+telegraf:
+  resources: {}
+
+grafana:
+  port: 3000
+  anonymousEnabled: "true"
+  logLevel: warning
+  dashboardsMinRefreshInterval: 1s
+  pluginsAdminEnabled: "false"
+  storage:
+    size: 2Gi
+    storageClassName: ""
+  service:
+    type: ClusterIP
+    annotations: {}
+    loadBalancerIP: ""
+  resources: {}

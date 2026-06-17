@@ -1,0 +1,92 @@
+{{- if .Values.components.open5gs }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: open5gs-5gc
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: open5gs-5gc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: {{ .Release.Name }}
+      app.kubernetes.io/component: open5gs-5gc
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/instance: {{ .Release.Name }}
+        app.kubernetes.io/component: open5gs-5gc
+    spec:
+      containers:
+        - name: open5gs-5gc
+          image: {{ include "fiveg.image" .Values.images.open5gs | quote }}
+          imagePullPolicy: {{ .Values.images.open5gs.pullPolicy }}
+          args: ["5gc", "-c", "open5gs-5gc.yml"]
+          env:
+            - name: OPEN5GS_IP
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.podIP
+          envFrom:
+            - configMapRef:
+                name: open5gs-env
+          securityContext:
+            privileged: {{ .Values.open5gs.securityContext.privileged }}
+          ports:
+            - name: webui
+              containerPort: 9999
+              protocol: TCP
+            - name: ngap
+              containerPort: 38412
+              protocol: SCTP
+            - name: gtpu
+              containerPort: 2152
+              protocol: UDP
+          readinessProbe:
+            exec:
+              command: ["sh", "-c", "nc -z 127.0.0.20 7777"]
+            initialDelaySeconds: 5
+            periodSeconds: 3
+            failureThreshold: 60
+          resources:
+            {{- toYaml .Values.open5gs.resources | nindent 12 }}
+          volumeMounts:
+            - name: dev-net-tun
+              mountPath: /dev/net/tun
+      volumes:
+        - name: dev-net-tun
+          hostPath:
+            path: /dev/net/tun
+            type: CharDevice
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: open5gs-5gc
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: open5gs-5gc
+  annotations:
+    {{- toYaml .Values.open5gs.service.annotations | nindent 4 }}
+spec:
+  type: LoadBalancer
+  loadBalancerIP: {{ .Values.open5gs.loadBalancerIP | quote }}
+  externalTrafficPolicy: {{ .Values.open5gs.externalTrafficPolicy | default "Cluster" }}
+  selector:
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/component: open5gs-5gc
+  ports:
+    - name: webui
+      port: 9999
+      targetPort: webui
+      protocol: TCP
+    - name: ngap
+      port: 38412
+      targetPort: ngap
+      protocol: SCTP
+    - name: gtpu
+      port: 2152
+      targetPort: gtpu
+      protocol: UDP
+{{- end }}

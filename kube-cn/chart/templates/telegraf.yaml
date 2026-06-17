@@ -1,0 +1,34 @@
+{{- if .Values.components.telegraf }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: telegraf
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: telegraf
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: {{ .Release.Name }}
+      app.kubernetes.io/component: telegraf
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/instance: {{ .Release.Name }}
+        app.kubernetes.io/component: telegraf
+    spec:
+      containers:
+        - name: telegraf
+          image: {{ include "fiveg.image" .Values.images.telegraf | quote }}
+          imagePullPolicy: {{ .Values.images.telegraf.pullPolicy }}
+          envFrom:
+            - configMapRef:
+                name: metrics-env
+          ports:
+            - name: health
+              containerPort: 9273
+              protocol: TCP
+          resources:
+            {{- toYaml .Values.telegraf.resources | nindent 12 }}
+{{- end }}

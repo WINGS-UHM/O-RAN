@@ -1,0 +1,88 @@
+{{- if .Values.components.influxdb }}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: influxdb-storage
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: influxdb
+spec:
+  accessModes: ["ReadWriteOnce"]
+  {{- if .Values.influxdb.storage.storageClassName }}
+  storageClassName: {{ .Values.influxdb.storage.storageClassName | quote }}
+  {{- end }}
+  resources:
+    requests:
+      storage: {{ .Values.influxdb.storage.size | quote }}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: influxdb
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: influxdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: {{ .Release.Name }}
+      app.kubernetes.io/component: influxdb
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/instance: {{ .Release.Name }}
+        app.kubernetes.io/component: influxdb
+    spec:
+      containers:
+        - name: influxdb
+          image: {{ include "fiveg.image" .Values.images.influxdb | quote }}
+          imagePullPolicy: {{ .Values.images.influxdb.pullPolicy }}
+          args:
+            - --object-store=memory
+            - --data-dir=/var/lib/influxdb3
+            - --node-id={{ .Values.influxdb.nodeId }}
+            - --http-bind={{ .Values.influxdb.httpBindAddr }}
+            - --without-auth
+          envFrom:
+            - configMapRef:
+                name: metrics-env
+          env:
+            - name: LOG_FILTER
+              value: {{ .Values.influxdb.logLevel | quote }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.influxdb.port }}
+              protocol: TCP
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            periodSeconds: 2
+            timeoutSeconds: 5
+          volumeMounts:
+            - name: storage
+              mountPath: /var/lib/influxdb3
+      volumes:
+        - name: storage
+          persistentVolumeClaim:
+            claimName: influxdb-storage
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: influxdb
+  labels:
+    {{- include "fiveg.labels" . | nindent 4 }}
+    app.kubernetes.io/component: influxdb
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/component: influxdb
+  ports:
+    - name: http
+      port: {{ .Values.influxdb.port }}
+      targetPort: http
+      protocol: TCP
+{{- end }}

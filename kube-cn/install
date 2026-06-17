@@ -1,0 +1,110 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+print_help() {
+  cat <<'HELP'
+Usage: ./install -f <recipe.yaml> [-c "open5gs influxdb telegraf grafana"]
+
+Installs or upgrades the 5g-core Helm release using local-registry images
+specified in the recipe file.
+
+Options:
+  -f  Values/recipe YAML file. Required.
+  -c  Optional component list. Defaults to all components.
+      Valid components: open5gs influxdb telegraf grafana
+HELP
+}
+
+wait_for_pods() {
+  local namespace=$1
+  local selector=$2
+  echo -n "waiting for pods matching [$selector] in namespace [$namespace]"
+  while true; do
+    local phases
+    phases=$(kubectl get pods -n "$namespace" -l "$selector" -o jsonpath='{range .items[*]}{.status.phase}{"\n"}{end}' 2>/dev/null || true)
+    if [ -n "$phases" ] && echo "$phases" | awk 'NF && $1!="Running" {exit 1} END {exit 0}'; then
+      echo
+      return 0
+    fi
+    echo -n "."
+    sleep 2
+  done
+}
+
+OVERRIDEYAML=""
+LIST_OF_COMPONENTS="open5gs influxdb telegraf grafana"
+
+while [ $# -gt 0 ]; do
+  case "$1" in
+    -f)
+      OVERRIDEYAML=${2:-}
+      shift 2
+      ;;
+    -c)
+      LIST_OF_COMPONENTS=${2:-}
+      shift 2
+      ;;
+    -h|--help)
+      print_help
+      exit 0
+      ;;
+    *)
+      echo "Option $1 not recognized" >&2
+      print_help >&2
+      exit 1
+      ;;
+  esac
+done
+
+if [ -z "$OVERRIDEYAML" ]; then
+  echo "ERROR: recipe file is required. Use -f <recipe.yaml>." >&2
+  exit 1
+fi
+
+if [ ! -f "$OVERRIDEYAML" ]; then
+  echo "ERROR: recipe file not found: $OVERRIDEYAML" >&2
+  exit 1
+fi
+
+if ! helm version --short | grep -q '^v3'; then
+  echo "ERROR: Helm 3 is required." >&2
+  exit 1
+fi
+
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null && pwd)"
+NAMESPACE=$(awk '/^namespace:/{print $2; exit}' "$OVERRIDEYAML")
+NAMESPACE=${NAMESPACE:-5g-core}
+RELEASE_NAME=$(awk '/^releaseName:/{print $2; exit}' "$OVERRIDEYAML")
+RELEASE_NAME=${RELEASE_NAME:-5g-core}
+
+if ! kubectl get ns "$NAMESPACE" >/dev/null 2>&1; then
+  kubectl create ns "$NAMESPACE"
+fi
+
+SET_ARGS=()
+for component in open5gs influxdb telegraf grafana; do
+  if [[ " $LIST_OF_COMPONENTS " == *" $component "* ]]; then
+    SET_ARGS+=(--set "components.${component}=true")
+  else
+    SET_ARGS+=(--set "components.${component}=false")
+  fi
+done
+
+echo "Deploying 5g-core components [$LIST_OF_COMPONENTS] into namespace [$NAMESPACE]"
+helm upgrade --install "$RELEASE_NAME" "$DIR/chart" \
+  --namespace "$NAMESPACE" \
+  -f "$OVERRIDEYAML" \
+  "${SET_ARGS[@]}"
+
+for component in $LIST_OF_COMPONENTS; do
+  case "$component" in
+    open5gs) wait_for_pods "$NAMESPACE" 'app.kubernetes.io/component=open5gs-5gc' ;;
+    influxdb) wait_for_pods "$NAMESPACE" 'app.kubernetes.io/component=influxdb' ;;
+    telegraf) wait_for_pods "$NAMESPACE" 'app.kubernetes.io/component=telegraf' ;;
+    grafana) wait_for_pods "$NAMESPACE" 'app.kubernetes.io/component=grafana' ;;
+    *) echo "WARNING: unknown component [$component], no wait selector configured" ;;
+  esac
+done
+
+kubectl get pods -n "$NAMESPACE" -o wide
+kubectl get svc -n "$NAMESPACE" -o wide

@@ -252,6 +252,22 @@ kubectl get pods -A | head -n 80
 log "MetalLB status"
 kubectl get pods -n metallb-system || true
 
+log "Creating MetalLB L2Advertisement"
+cat <<EOF | kubectl apply -f -
+apiVersion: metallb.io/v1beta1
+kind: L2Advertisement
+metadata:
+  name: primary
+  namespace: metallb-system
+spec:
+  ipAddressPools:
+    - primary
+  interface: ${CALICO_IFACE}
+EOF
+
+kubectl get ipaddresspool -A
+kubectl get l2advertisement -A
+
 log "Creating a simple LoadBalancer test service"
 kubectl create deploy echo --image=hashicorp/http-echo -- /http-echo -text="ok" || true
 kubectl expose deploy echo --port 5678 --type LoadBalancer || true

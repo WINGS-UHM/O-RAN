@@ -1,0 +1,5 @@
+apiVersion: v2
+name: 5g-core
+version: 0.1.0
+appVersion: "0.1.0"
+description: OCUDU/Open5GS 5GC and metrics stack for Kubernetes

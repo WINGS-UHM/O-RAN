@@ -1,0 +1,17 @@
+[Unit]
+Description=Port-forward 5G Core Grafana dashboard
+After=network-online.target kubelet.service
+Wants=network-online.target kubelet.service
+
+[Service]
+Type=simple
+User=admin
+Environment=HOME=/home/admin
+Environment=KUBECONFIG=/home/admin/.kube/config
+Environment=PATH=/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/usr/local/bin/kubectl -n 5g-core port-forward --address 0.0.0.0 svc/grafana 3400:3000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
