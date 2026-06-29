@@ -8,5 +8,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y --no-ins
 
 ADD *.conf /etc/ocudu/
 ADD entrypoint.sh ws_adapter.py /usr/local/bin/
+RUN chmod +x /usr/local/bin/entrypoint.sh
 
 ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
